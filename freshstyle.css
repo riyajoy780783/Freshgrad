@@ -1,0 +1,63 @@
+.main
+{
+  height: 100%;
+  width: 100%
+}
+
+.label
+{
+  width: 30%;
+  height: 100%;
+
+    margin-left: 5%;
+}
+.image
+{
+  position: absolute;
+  top: -5em;
+  width: 55em;
+  right: -2em;
+  height: 50em;
+  left: 31em;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+.credential
+{
+  width: 60%;
+  margin-top: 20%;
+  margin-left:15%;
+  float: left;
+}
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text], input[type=submit] {
+
+  background-color: none;
+  color: grey;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+
+}
+.credential a{
+  text-decoration: none;
+
+}
